@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Jacquarda+Bastarda+9&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.wrapper {
+    width: 100%;
+}
+.banner {
+    background-image: url('https://images.pexels.com/photos/28120193/pexels-photo-28120193.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    height: 900px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    position: relative;
+
+}
+
+.nav{
+    margin: 0;
+    text-decoration: none;
+}
+
+.banner h1,
+.banner p,
+.nav a {
+    font-size: 30px;
+    font-weight: right;
+    color: rgb(7, 26, 68);
+}
+.nav a {
+     text-decoration: none;
+     margin-left:  100px;
+     margin-right: 40px;
+}
+.nav img {
+    height: 20px;
+    width: 30px;
+}
+
+.nav h1 {
+    float: left;
+    margin-left: 40px;
+}
+.nav ul {
+    float: right;
+}
+.nav ul li {
+    display: inline-block;
+}
+.banner-1 {
+    position:  absolute;
+    top: 100px;
+    left: 18%;
+    width: 70%;
+}
+.banner-1 h1 {
+    text-align: center;
+    font-size: 80px;
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.banner-1 p {
+    margin-top: 1px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: right;
+    word-spacing: 30px
+}
+.banner-1 span {
+    text-decoration: underline;
+}
+.section {
+    width: 40%;
+    text-align: center;
+    margin: 1em auto;
+}
+.content1 img {
+    margin-top: 20%;
+    border-radius: 50%;
+    height: 40%;
+    width: 50%;
+}
+.content1 p{
+    width: 70%;
+    margin: 1em auto;
+}
+hr {
+    border: none;
+    border-bottom: 7px dashed #000;
+    margin: 20% auto;
+    width: 10%;
+}
+.content2 img{
+    float: left;
+    display: inline-block;
+    height: 10%;
+    width: 20%;
+    border-radius: 30px;
+}
+table th {
+    font-size: 130%;
+}
+.section-last {
+    text-align: center;
+    margin-top: 10%;
+}
+.section-last h1 {
+    color: rgb(21, 85, 85);
+    width: 100%;
+    font-weight: 10;
+
+}
+.section-last p {
+    margin-top: 6%;
+}
+
+.section-last a {
+    display: inline-block;
+    border: 1px solid #061d18;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 1em;
+    color: rgb(28, 92, 71);
+    margin-top: 6%;
+}
+.footer {
+    background-color: #10412c;
+    height: 300px;
+    margin-top: 10%;
+}
+.icon {
+    margin-left: 42%;
+}
+.icon img {
+    margin-right: 50px;
+    margin-top: 10%;
+    height: 40px;
+    width: 40px;
+
+}
+.footer p {
+    color: #fff;
+    margin-left: 40%;
+    margin-top: 3%;
+    word-spacing: 5px;
+}
+.photo {
+    position: absolute;
+}
+.photo1{
+    margin-top: -60%;
+    margin-left: 5%;
+    height: 50%;
+    width: 30%;
+}
+
+.photo2{
+    margin-top: -40%;
+    margin-left: 70%;
+}
+
+
+.photo3{
+    margin-left: -10%;
+
+}
+
